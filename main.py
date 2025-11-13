@@ -11,7 +11,7 @@ import threading
 import tempfile
 from PIL import Image, ImageTk # Used for displaying images in Tkinter
 
-# --- Original Motion Amplification Functions (copied from your script) ---
+# --- Original Motion Amplification Functions ---
 
 def ComputeLaplacianPyramid(frame, max_levels):
     G = frame.copy()
